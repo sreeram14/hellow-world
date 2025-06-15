@@ -4,3 +4,5 @@ changes in 15-June-2025
 Difference between Partitions and Zorder in Databricks:
 Partitions : Partitions are used on columns in cases where a column is frequently used in "WHERE" condition of a SQL query and has low cardinility. 
 Zorder: Zorder organizes the efficiently so that related records are stored together based on a clolumn. Zorder is efficient when a high cardinal column is used in where condition of a SQL query. 
+Zorder can have list of columns seperated by commas. 
+Partition and zorder cannot be declared on the same set of columns
