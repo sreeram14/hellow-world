@@ -6,3 +6,5 @@ Partitions : Partitions are used on columns in cases where a column is frequentl
 Zorder: Zorder organizes the efficiently so that related records are stored together based on a clolumn. Zorder is efficient when a high cardinal column is used in where condition of a SQL query. 
 Zorder can have list of columns seperated by commas. 
 Partition and zorder cannot be declared on the same set of columns
+If we use liquid clustering, We need not use partitions and zorder.
+We can also enable liquid cluster. 
